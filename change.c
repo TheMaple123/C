@@ -1,16 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 
 {
     int price = 0;
 
-    printf("è¯·è¾“å…¥é‡‘é¢");
+    printf("ÇëÊäÈë½ğ¶î");
     scanf("%d", &price);
 
     int change = 100 - price;
 
-    printf("æ‰¾æ‚¨%då…ƒ\n", change);
+    printf("ÕÒÄú%dÔª\n", change);
+    system("pause");
+
 
     return 0;
 }
